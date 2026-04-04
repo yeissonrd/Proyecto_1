@@ -1,0 +1,60 @@
+h1 {
+        color: rgb(6, 101, 36);
+        font-size: large;
+        border: solid rgb(0, 5, 5);
+        text-align: center;
+      }
+      h2 {
+        font-size: xx-large;
+        background-image: linear-gradient(
+          to right, #ADFF2F,#32CD32,#00FF7F, yellow  
+        );
+      }
+      p {
+        font-size: small;
+        color: black;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        background-color: aqua;
+      }
+      input {
+        background-color: darkkhaki;
+        text-align: center;
+      }
+  
+      fieldset{
+         text-align: center;
+         border: double; 
+      }  
+body {
+  background-color: beige;
+}
+    
+      
+    
+    
+      
+
+
+
+
+      
+      
+
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
