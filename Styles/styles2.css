@@ -1,0 +1,35 @@
+h1 {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:xx-large;
+  background-image: linear-gradient(to right, yellow, #ffd700, #daa520);
+  text-align: center;
+}
+
+body {
+ background-color: beige;
+  
+}
+p{
+    color: red;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+fieldset{
+    text-align: center;
+    color:	#D2691E ;
+    ;
+    
+}
+legend{
+    font-weight: bold;
+    font-size: xx-large;
+}
+input:hover {
+    background-color: #f0f0f0; /* cambia el fondo */
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* agrega sombra */
+}
+input:focus {
+    border: 2px solid #D2691E; /* resalta el borde */
+    outline: none; /* quita el borde azul por defecto */
+}
