@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Exercise</title>
+
+    <style>
+        section {
+            display: inline;
+            background-color: rgb(99, 174, 122);
+            padding: 4px 8px;
+        }
+
+        /* c. Botones con display: inline-block (CSS interno) */
+        .boton {
+            display: inline-block;
+            width: 120px;
+            background-color: steelblue;
+            color: white;
+            text-align: center;
+            padding: 8px 0;
+            border: none;
+            cursor: pointer;
+        }
+
+        .resaltarTexto {
+            font-size: 25px; color: red;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: yellow
+        }
+    </style>
+</head>
+
+<body>
+    <h3> Un párrafo con display: block (definido en inline CSS).</h3>
+    <p style="display: block;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse reprehenderit accusamus
+        accusantium officiis
+        cumque pariatur numquam repellendus dicta, vitae vel.</p>
+
+
+
+    <!-- Tres section con display: inline (definidos en un bloque <style> interno). -->
+
+    <section>Boton</section>
+    <section>Boton</section>
+    <section>Boton</section>
+
+
+    <!--La etiqueta SPAN tanmbien nos sirve opara resaltar textos dentro de un parrtafo-->
+    <p>Lorem ipsum <span class="resaltarTexto">dolor</span> sit amet consectetur adipisicing elit. Id modi quibusdam et velit repellat reprehenderit sint,
+        commodi iusto est officiis?.</p>
+
+    <h3>Dos botones con display: inline-block, definidos en CSS interno con un ancho fijo
+        de 120px. </h3>
+
+    <h3> Botones con display: inline-block (CSS interno)</h3>
+    <button class="boton">Botón 1</button>
+    <button class="boton">Botón 2</button>
+
+    <h3> Div oculto con display: none (CSS en línea)</h3>
+    <div style="display: none;">
+        Este texto no se ve en la pagina
+    </div>
+    <p>⬆ Arriba hay un div pero no se ve porque tiene display: none</p>
+
+
+</body>
+
+</html>

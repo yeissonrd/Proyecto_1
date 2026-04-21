@@ -1,3 +1,30 @@
+.perfil {
+  background-color: #f0f0f0; /* gris claro */
+  border: 2px solid blue;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  margin: 20px auto; /* Se usa auto al final para no tener que usar cada margin-top, margin-left, etc, cuando se le va dar el mismo valor a todos los margin */
+}
+
+.foto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* círculo */
+  margin-bottom: 15px;
+}
+
+.nombre {
+  font-size: 1.5rem; /* 24px aprox */
+  margin-bottom: 10px;
+}
+
+.descripcion {
+  padding: 10px;
+  font-size: 1rem;
+}
+
 nav {
   position: fixed;
   top: 0;

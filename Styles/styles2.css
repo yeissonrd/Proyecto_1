@@ -32,8 +32,12 @@ legend{
 input:hover {
     background-color: #f0f0f0; /* cambia el fondo */
     box-shadow: 0 0 5px rgba(0,0,0,0.3); /* agrega sombra */
+    border-radius: 5px;
 }
 input:focus {
     border: 2px solid #D2691E; /* resalta el borde */
     outline: none; /* quita el borde azul por defecto */
+    background-color: #daa520;
 }
+
+input[type="checkbox"]:checked { background-color: orange; }
